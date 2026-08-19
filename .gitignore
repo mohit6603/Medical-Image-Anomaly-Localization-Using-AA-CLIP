@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Local agent metadata
+AGENTS.md
+
+# Generated experiment assets
+data/
+datasets/
+results/
+runs/
+outputs/
+checkpoints/
+ckpt/
+weights/
+models/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Downloaded/cloned project artifacts
+Medical-Image-Anomaly-Detection/
+AA-CLIP/
